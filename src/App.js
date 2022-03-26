@@ -19,6 +19,7 @@ function App() {
 
   const handleSubmit =(values)=>{
     const sumValues = values.number1 + values.number2
+    console.log(sumValues)
         dispatch(sum(sumValues))
    
   }
